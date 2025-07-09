@@ -49,5 +49,38 @@ Additionally, manually monitoring was incorperated:
 
 
 
+## Task 2
 
+Managing user accounts is a common admin task for linux servers. Manually creating and managing user accounts, that have access to the servers. Ansible simplifies the process by automating user creation with playbooks.
+
+
+### Create an ansible playbook to automate user creation
+
+![](img/j.createusers.png)
+
+### Run the playbook using the ansible comamand
+
+This creates the users, script uses the latest syntax 
+
+![](img/k.run-pb.png)
+
+show cofirmation 
+
+![](img/l.creating.png)
+
+To show confirmation ssh into worker/target machine and run command
+
+![](img/m.ssh_n_confirm.png)
+
+### Add group and ssh key configuration & then show confirmation
+
+![](img/n.ssh_users.png)
+
+![](img/o.script.png)
+
+![](img/p.creating.png)
+
+![](img/q.confirm.png)
+
+![](img/r.confirm.png)
  
